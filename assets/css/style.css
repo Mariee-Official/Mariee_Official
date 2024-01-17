@@ -358,7 +358,7 @@ a.more {
   display: grid;
   grid-template-columns: repeat(27, 1fr);
   position: relative;
-  -ms-grid-columns: (1fr) [27];
+  -ms-grid-columns: (1fr);
 }
 .we-help-section .imgs-grid:before {
   position: absolute;
@@ -1076,6 +1076,7 @@ textarea {
   }
   .hero .intro-excerpt {
     max-width: 450px;
+    margin-bottom: 20px;
   }
   .hero .hero-img-wrap img {
     left: 0px;
